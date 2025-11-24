@@ -18,8 +18,7 @@ public class TextAnimations : MonoBehaviour
     private void Awake() {
         tmp = btn.GetComponentInChildren<TextMeshProUGUI>();
     }
-    public enum AnimationType
-    {
+    public enum AnimationType{
         Move,
         ColorChange,
         Shake,
@@ -34,6 +33,7 @@ public class TextAnimations : MonoBehaviour
 
     void AnimateNoUIReferenced() {
         Transform tf = btn.gameObject.transform;
+
         switch(animationType) {
             case AnimationType.Move:
                 tf.DOLocalMove(movePos, speed).SetLoops(cycleTime, LoopType.Yoyo);
@@ -52,8 +52,6 @@ public class TextAnimations : MonoBehaviour
             case AnimationType.Shake:
                 tf.DOShakePosition(speed, movePos).SetLoops(cycleTime, LoopType.Yoyo);
             break;
-
-
         }
 
     }

@@ -6,17 +6,13 @@ public class NaughtyComponent : MonoBehaviour {
 
     [SerializeField] private float speed = 1f;
 
-    
-
     private void Start() {
         
     }
 
     private void Update() {
-        
-            //GetComponent<Rigidbody>().AddForce(Vector3.up, ForceMode.Impulse);
-            MethodOne();
-       
+        //GetComponent<Rigidbody>().AddForce(Vector3.up, ForceMode.Impulse);
+        MethodOne();
     }
 
     [Button]
