@@ -39,8 +39,10 @@ public class TextAnimations : MonoBehaviour
                 tf.DOLocalMove(movePos, speed).SetLoops(cycleTime, LoopType.Yoyo);
                 break;
             case AnimationType.ColorChange:
-            tf.GetComponentInChildren<TextMeshProUGUI>().DOColor(color, speed);
+            Color currentColor = tmp.color;
+            tmp.DOColor(new Color(color.r, color.g, color.b, currentColor.a), speed);
             break;
+
 
             case AnimationType.Fade:
             tf.GetComponentInChildren<TextMeshProUGUI>().DOFade(0, speed)
