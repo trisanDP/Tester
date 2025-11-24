@@ -57,4 +57,8 @@ public class TextAnimations : MonoBehaviour
         }
 
     }
+
+    private void OnDestroy() {
+        transform.DOKill();
+    }
 }

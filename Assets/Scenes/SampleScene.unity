@@ -1695,6 +1695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
   button: {fileID: 1570265408}
+  quit: {fileID: 0}
   SceneName: MainMenu
 --- !u!4 &1649890128
 Transform:

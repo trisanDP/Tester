@@ -17,6 +17,7 @@ public class PlanetDOTween : MonoBehaviour {
         StartRevolution();
         StartSelfRotation();
     }
+
     private void StartRevolution() {
         if(centerPoint == null) {
             Debug.LogWarning("Center Point Not Assigned");
@@ -39,6 +40,7 @@ public class PlanetDOTween : MonoBehaviour {
         .SetEase(Ease.Linear)
         .SetLoops(-1)
         .SetUpdate(true);
+
     }
 
     private void StartSelfRotation() {
@@ -51,5 +53,6 @@ public class PlanetDOTween : MonoBehaviour {
     private void OnDisable() {
         if(revolutionTween != null && revolutionTween.IsActive())
             revolutionTween.Kill();
+        transform.DOKill();
     }
 }
