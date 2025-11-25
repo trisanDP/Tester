@@ -17,7 +17,7 @@ MonoBehaviour:
   easeType: 1
   script: '[
 
-    {"TweenType":"PunchScaleUniform","To":0.1, "Duration":0.3,"Vibrato":1,"Elasticity":1}
+    {"TweenType":"PunchScaleUniform","To":.1, "Duration":0.3,"Vibrato":1,"Elasticity":1}
 
     ]'
   playMethod: 1

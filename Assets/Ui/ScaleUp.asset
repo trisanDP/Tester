@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ScaleUp
   m_EditorClassIdentifier: 
   loopCount: 0
-  looptype: 1
-  script: '[{ "TweenType":"ScaleUniform", "To":1.2, "Duration":0.15}]'
+  loopType: 1
+  easeType: 1
+  script: '[{ "TweenType":"ScaleUniform", "To":1.2, "Duration":5}]'
   playMethod: 1

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ImageColorTint
   m_EditorClassIdentifier: 
   loopCount: 0
-  looptype: 1
-  script: '[{ "TweenType":"ColorImage", "To":"#898989", "Duration":0.15}]'
+  loopType: 1
+  easeType: 1
+  script: '[{ "TweenType":"ColorImage", "To":"#898989", "Duration":1}]'
   playMethod: 1

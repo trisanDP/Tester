@@ -69,7 +69,7 @@ namespace Arcube.Animation
 
         private void PlayDefault()
         {
-            foreach(var clip in defaultAnimations)
+            foreach(var clip in defaultAnimations)  
             {
                 Play(clip);
             }
