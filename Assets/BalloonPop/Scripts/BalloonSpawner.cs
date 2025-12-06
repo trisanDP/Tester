@@ -60,13 +60,13 @@ namespace NaniBabu.BalloonPop {
             gameManager = gameManager ?? BalloonPopGameManager.Instance;
 
             if(spawnParent == null || mainCanvas == null || balloonPrefab == null || datas == null || datas.Count == 0) {
-                Debug.LogError($"{nameof(BalloonSpawner)} missing references or data - disabling.");
+                Debug.LogError($"BalloonSpawner:  missing references or data - disabling.");
                 enabled = false;
                 return;
             }
 
             if(levelData == null || levelData.Count == 0) {
-                Debug.LogWarning($"{nameof(BalloonSpawner)}: no levelData defined — using a single default level.");
+                Debug.LogWarning($"BalloonSpawner: no levelData defined — using a single default level.");
                 levelData = new List<LevelData> {
                     new LevelData { level = 1, balloonCount = 10, spawnRate = defaultSpawnRate, MinRightAns = 3 }
                 };
@@ -100,7 +100,7 @@ namespace NaniBabu.BalloonPop {
             if(levelIndex >= levelData.Count) {
                 if(loopLevels) levelIndex = levelIndex % levelData.Count;
                 else {
-                    Debug.Log($"{nameof(BalloonSpawner)}: reached final level index {levelIndex}. Stopping spawner.");
+                    Debug.Log($"BalloonSpawner: reached final level index {levelIndex}. Stopping spawner.");
                     enabled = false;
                     return;
                 }

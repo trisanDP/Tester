@@ -505,18 +505,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2539903634620210893, guid: 6f52d2f7b7ebb544dbb645dfd46ee78b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2539903634620210893, guid: 6f52d2f7b7ebb544dbb645dfd46ee78b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2539903634620210893, guid: 6f52d2f7b7ebb544dbb645dfd46ee78b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2539903634620210893, guid: 6f52d2f7b7ebb544dbb645dfd46ee78b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -569,33 +557,9 @@ PrefabInstance:
       value: TitlePrefab
       objectReference: {fileID: 0}
     - target: {fileID: 8802625756043445752, guid: 6f52d2f7b7ebb544dbb645dfd46ee78b, type: 3}
-      propertyPath: clipInfos.Array.data[2].OnComplete.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8802625756043445752, guid: 6f52d2f7b7ebb544dbb645dfd46ee78b, type: 3}
-      propertyPath: clipInfos.Array.data[2].OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8802625756043445752, guid: 6f52d2f7b7ebb544dbb645dfd46ee78b, type: 3}
       propertyPath: clipInfos.Array.data[2].OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 269878346}
-    - target: {fileID: 8802625756043445752, guid: 6f52d2f7b7ebb544dbb645dfd46ee78b, type: 3}
-      propertyPath: clipInfos.Array.data[2].OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8802625756043445752, guid: 6f52d2f7b7ebb544dbb645dfd46ee78b, type: 3}
-      propertyPath: clipInfos.Array.data[2].OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StartGame
-      objectReference: {fileID: 0}
-    - target: {fileID: 8802625756043445752, guid: 6f52d2f7b7ebb544dbb645dfd46ee78b, type: 3}
-      propertyPath: clipInfos.Array.data[2].OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: NaniBabu.BalloonPop.BalloonPopGameManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 8802625756043445752, guid: 6f52d2f7b7ebb544dbb645dfd46ee78b, type: 3}
-      propertyPath: clipInfos.Array.data[2].OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
