@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb9dc9dcaa160a74e9e8260e0a0df64f, type: 3}
+  m_Name: SpriteAnimationClip
+  m_EditorClassIdentifier: Arcube.Animation::Arcube.Animation.SpriteAnimationClip
+  loopCount: -1
+  loopType: 0
+  easeType: 1
+  sprites:
+  - {fileID: -7266125404717315652, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: 4729163251677064058, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: 5266858915016903952, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: -1078938251738849258, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: 2425795018239507227, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: 1074779136239847745, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: -8842981107373786214, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: 252427324434334589, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: 1771194423511987390, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: 7644216155311297042, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: -4219432189240919666, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: -719313407413667917, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: 3697351321333218321, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: -9164024696149940402, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: 113628756923541430, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: -1408879173420673353, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: -245226440347929963, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: -9039087769975171695, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: -6201999834203572102, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  - {fileID: 5129117992791281678, guid: 564918fc2b04dd64aa99ffe8c6dac7e6, type: 3}
+  offset: 0
+  updateInterval: 1
+  nextClip: 

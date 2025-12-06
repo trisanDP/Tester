@@ -1,10 +1,10 @@
 ﻿<Solution>
-  <Project Path="NaughtyAttributes.Test.csproj" />
   <Project Path="NaughtyAttributes.Core.csproj" />
-  <Project Path="NaughtyAttributes.Editor.csproj" />
-  <Project Path="App.csproj" />
-  <Project Path="DOTweenCustom.csproj" />
-  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Arcube.Animation.csproj" />
+  <Project Path="App.csproj" />
+  <Project Path="NaughtyAttributes.Editor.csproj" />
+  <Project Path="NaughtyAttributes.Test.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="DOTweenCustom.csproj" />
   <Project Path="Arcube.Animation.Editor.csproj" />
 </Solution>
