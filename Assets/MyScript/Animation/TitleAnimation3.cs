@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
-public class TitleAnimation2 : MonoBehaviour {
+public class TitleAnimation3 : MonoBehaviour {
     #region Fields
 
     [SerializeField] private List<AudioClip>introClip;

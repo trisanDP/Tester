@@ -75,7 +75,6 @@ namespace NaniBabu.BalloonPop {
             if(gameManager != null) {
                 gameManager.onCorrectPop.AddListener(OnCorrectPop);
             }
-
         }
 
         public void StartGame() {

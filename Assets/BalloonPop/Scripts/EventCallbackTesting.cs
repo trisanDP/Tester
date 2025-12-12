@@ -14,8 +14,7 @@ namespace NaniBabu.BalloonPop {
         public static void OnWrongPop() {
             Debug.Log("Wrong Pop");
 
-        }
-
+        }   
         public static void OnChangeColor() {
             Debug.Log("Changed Main Color");
         }

@@ -13,6 +13,8 @@ namespace NaniBabu.BalloonPop {
 
     [RequireComponent(typeof(RectTransform), typeof(Image))]
     public class Balloon : MonoBehaviour, IPointerClickHandler {
+
+
         #region Inspector
         public float speed = 200f; 
         public float destroyOffset = 50f;
