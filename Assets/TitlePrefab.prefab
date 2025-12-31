@@ -46,7 +46,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1657941143142560705, guid: 95c7064ca9bf2f044b24d5f6390c2041, type: 3}
       propertyPath: m_Name
-      value: Image_title (3)
+      value: Image_title
       objectReference: {fileID: 0}
     - target: {fileID: 1657941143142560705, guid: 95c7064ca9bf2f044b24d5f6390c2041, type: 3}
       propertyPath: m_IsActive
@@ -106,7 +106,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3484720968696404969, guid: 95c7064ca9bf2f044b24d5f6390c2041, type: 3}
       propertyPath: clipInfos.Array.data[2].OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: NaniBabu.BalloonPop.BalloonPopGameManager, Assembly-CSharp
+      value: NaniBabu.BalloonPop.BalloonSpawner, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3484720968696404969, guid: 95c7064ca9bf2f044b24d5f6390c2041, type: 3}
       propertyPath: clipInfos.Array.data[1].OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument

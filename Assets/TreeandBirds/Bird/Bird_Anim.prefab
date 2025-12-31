@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 2157823657534406283}
   - component: {fileID: 978538209229633290}
   - component: {fileID: 1490927271072990095}
-  - component: {fileID: 421536944365228681}
   m_Layer: 5
   m_Name: Bird_Anim
   m_TagString: Untagged
@@ -30,7 +29,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4489396343118082046}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -247,19 +246,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &421536944365228681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4489396343118082046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36bf5e1a14cca5e478a9f96e678f4136, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObjects
-  onInteract:
-    m_PersistentCalls:
-      m_Calls: []
-  birdClip: {fileID: 0}

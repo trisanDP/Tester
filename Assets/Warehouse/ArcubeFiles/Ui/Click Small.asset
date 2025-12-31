@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be66005c28858bd45be5cee12c7243bc, type: 3}
   m_Name: Click Small
   m_EditorClassIdentifier: 
-  loopCount: 0
+  loopCount: 2
   loopType: 1
   easeType: 1
   script: '[
