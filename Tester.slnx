@@ -1,17 +1,20 @@
 ﻿<Solution>
-  <Project Path="NaughtyAttributes.Core.csproj" />
   <Project Path="Arcube.Animation.csproj" />
   <Project Path="App.csproj" />
-  <Project Path="NaughtyAttributes.Editor.csproj" />
+  <Project Path="BetterHierarchy.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="NaughtyAttributes.Core.csproj" />
+  <Project Path="NaughtyAttributes.Editor.csproj" />
   <Project Path="NaughtyAttributes.Test.csproj" />
+  <Project Path="DOTweenCustom.csproj" />
+  <Project Path="BetterHierarchyDemoScripts.csproj" />
   <Project Path="CFXRRuntime.csproj" />
   <Project Path="CFXRDemo.csproj" />
-  <Project Path="CFXREditor.csproj" />
-  <Project Path="DOTweenCustom.csproj" />
+  <Project Path="VFolders.csproj" />
   <Project Path="Arcube.Animation.Editor.csproj" />
-  <Project Path="KinoBloom.Runtime.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
-  <Project Path="CFXR.WelcomeScreen.csproj" />
+  <Project Path="CFXREditor.csproj" />
   <Project Path="ToonyColorsPro.Demo.Editor.csproj" />
+  <Project Path="KinoBloom.Runtime.csproj" />
+  <Project Path="CFXR.WelcomeScreen.csproj" />
 </Solution>

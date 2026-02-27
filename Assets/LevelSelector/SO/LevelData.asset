@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4d80aefddb605a4faefde0b9e91d56a, type: 3}
+  m_Name: LevelData
+  m_EditorClassIdentifier: Assembly-CSharp::LevelSelector.LevelDataSO
+  completedImg: {fileID: 21300000, guid: ff63721da04cb8942bfcab5f0311e4bb, type: 3}
+  lockedImg: {fileID: 21300000, guid: ed864e879cc325e4a89b1ff17faad36c, type: 3}
+  activeImg: {fileID: 21300000, guid: 20fdd05b7b577d948a5e8141c35216f0, type: 3}
+  hardDiffImg: {fileID: 21300000, guid: 75a3f28a1606bb64ab1c97cf0c8c3a86, type: 3}
+  midDiffImg: {fileID: 21300000, guid: d5137117a85459346a1a5c1d71f33c4d, type: 3}
+  easyDiffImg: {fileID: 21300000, guid: 01c78f01b953d22429db84baaf1eeccd, type: 3}
